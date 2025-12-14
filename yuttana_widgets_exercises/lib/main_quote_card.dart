@@ -1,8 +1,9 @@
 /// @author Yuttana Hoomda
-/// @version 1.0
+/// @version 2.0
 /// @date 2025-12-10
 /// widget quote card that use expanded make img full width
 /// this lab will show picture of quote and the author
+/// Not Using Ai
 library;
 
 import 'package:flutter/material.dart';
@@ -32,7 +33,12 @@ class QuoteCard extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Expanded(child: Image.asset('assets/images.jpg', height: 500, fit: BoxFit.cover,)),
+              Container(
+                  constraints: BoxConstraints(
+                      maxHeight: 500
+                  ),
+                  child: Expanded(child: Image.asset('assets/images.jpg', fit: BoxFit.cover,))
+              ),
               Expanded(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
