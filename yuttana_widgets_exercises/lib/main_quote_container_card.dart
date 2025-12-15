@@ -3,6 +3,9 @@
 /// @date 2025-12-14
 /// widget quote card that use Container for making button in author section
 /// this lab will show picture of quote and the author inside button blue color
+/// -------- logic -------
+/// I search google 'how to set max height contianer in flutter' then i read document geekforgeeks
+/// set max height container because if not set, img in expanded will full height
 /// Not Using Ai
 library;
 
