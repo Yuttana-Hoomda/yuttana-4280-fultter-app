@@ -58,6 +58,12 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images.jpg
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Kanit-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
