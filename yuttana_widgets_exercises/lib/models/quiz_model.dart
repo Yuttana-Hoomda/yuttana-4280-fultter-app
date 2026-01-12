@@ -1,0 +1,13 @@
+import 'package:yuttana_4280_fultter_app/components/choice_card.dart';
+
+class QuizModel {
+  final String question;
+  final String img;
+  final List<ChoiceCard> choice;
+
+  const QuizModel({
+    required this.question,
+    required this.img,
+    required this.choice,
+  });
+}

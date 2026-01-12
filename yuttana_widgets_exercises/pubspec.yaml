@@ -58,6 +58,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images.jpg
+    - assets/kku.jpg
   fonts:
     - family: Kanit
       fonts:
