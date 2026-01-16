@@ -17,6 +17,7 @@ class ContactInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: Theme.of(context).colorScheme.primaryContainer,
       child: Column(
         children: [
           ListTile(
