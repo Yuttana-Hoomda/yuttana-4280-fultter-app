@@ -9,7 +9,7 @@ class QuestionSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsetsGeometry.symmetric(vertical: 30),
+      padding: const EdgeInsetsGeometry.symmetric(vertical: 15),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -20,7 +20,7 @@ class QuestionSection extends StatelessWidget {
               color: Theme.of(context).colorScheme.primary,
             ),
           ),
-          Image.asset(img, height: 200, width: 320, fit: BoxFit.cover),
+          Expanded(child: Image.asset(img, height: 200, width: 320, fit: BoxFit.contain)),
         ],
       ),
     );
