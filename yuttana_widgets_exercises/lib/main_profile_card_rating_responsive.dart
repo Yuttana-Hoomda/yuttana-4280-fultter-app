@@ -14,7 +14,7 @@
 library;
 
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/screens/profile_card_rating_responsive.dart';
+import 'package:yuttana_widgets_exercises/screens/profile_card_rating_responsive.dart';
 
 void main() => runApp(const MainProfileCardRatingResponsive());
 

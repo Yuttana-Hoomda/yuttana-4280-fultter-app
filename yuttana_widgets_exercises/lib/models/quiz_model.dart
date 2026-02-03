@@ -1,4 +1,4 @@
-import 'package:yuttana_4280_fultter_app/components/choice_card.dart';
+import '../components/choice_card.dart';
 
 class QuizModel {
   final String question;

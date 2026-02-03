@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/pet_card.dart';
-import 'package:yuttana_4280_fultter_app/utils/pet_img.dart';
+import '../components/pet_card.dart';
+import '../utils/pet_img.dart';
 
 class PetsScreen extends StatelessWidget {
   const PetsScreen({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/choice_card.dart';
+import 'choice_card.dart';
 
 class QuestionChoice extends StatelessWidget {
   const QuestionChoice({super.key, required this.choiceList});

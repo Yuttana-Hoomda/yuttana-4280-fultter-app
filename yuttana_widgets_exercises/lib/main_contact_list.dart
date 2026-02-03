@@ -13,7 +13,7 @@
 library;
 
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/screens/contact_list_screen.dart';
+import 'package:yuttana_widgets_exercises/screens/contact_list_screen.dart';
 
 void main() => runApp(MainContactList());
 

@@ -18,7 +18,7 @@
 library;
 
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/question_with_choice.dart';
+import 'package:yuttana_widgets_exercises/components/question_with_choice.dart';
 
 void main() => runApp(MainQuizQuestionResponsive());
 

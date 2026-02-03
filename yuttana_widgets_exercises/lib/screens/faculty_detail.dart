@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/models/faculty_model.dart';
+import '../models/faculty_model.dart';
 
 class FacultyDetail extends StatelessWidget {
   const FacultyDetail({super.key, required this.faculty});

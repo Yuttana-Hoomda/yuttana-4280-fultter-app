@@ -13,8 +13,9 @@
 /// Not Using Ai
 library;
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/models/faculty_model.dart';
-import 'package:yuttana_4280_fultter_app/screens/faculty_detail.dart';
+import 'package:yuttana_widgets_exercises/screens/faculty_detail.dart';
+
+import 'models/faculty_model.dart';
 
 void main() => runApp(const MainFacultyList());
 

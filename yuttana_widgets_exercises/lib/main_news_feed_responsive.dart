@@ -16,7 +16,7 @@
 library;
 
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/screens/news_feed_screen.dart';
+import 'package:yuttana_widgets_exercises/screens/news_feed_screen.dart';
 
 void main() => runApp(const MainNewsFeedResponsive());
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/models/pet_model.dart';
+import '../models/pet_model.dart';
 
 class PetCardWithModel extends StatelessWidget {
   const PetCardWithModel({super.key, required this.pet});

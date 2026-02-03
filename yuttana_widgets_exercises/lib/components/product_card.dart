@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/star_rating.dart';
+import 'package:yuttana_widgets_exercises/components/star_rating.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/question_chioce_responsive.dart';
-import 'package:yuttana_4280_fultter_app/components/question_choice.dart';
-import 'package:yuttana_4280_fultter_app/components/question_section.dart';
-import 'package:yuttana_4280_fultter_app/models/quiz_model.dart';
-import 'package:yuttana_4280_fultter_app/utils/responsive.dart';
-
+import 'package:yuttana_widgets_exercises/components/question_chioce_responsive.dart';
+import 'package:yuttana_widgets_exercises/components/question_section.dart';
+import '../models/quiz_model.dart';
+import '../utils/responsive.dart';
 import 'choice_card.dart';
 
 final QuizModel quiz = QuizModel(

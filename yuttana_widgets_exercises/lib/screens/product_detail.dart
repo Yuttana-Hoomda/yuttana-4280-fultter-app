@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/models/product_model.dart';
-
 import '../components/star_rating.dart';
+import '../models/product_model.dart';
 
 void _handleTap(BuildContext context) {
   ScaffoldMessenger.of(context).showSnackBar(

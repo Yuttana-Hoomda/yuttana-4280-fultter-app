@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/screens/profile_card_rating.dart';
+import 'package:yuttana_widgets_exercises/screens/profile_card_rating.dart';
 
 import '../components/contact_info.dart';
 import '../components/profile_card.dart';

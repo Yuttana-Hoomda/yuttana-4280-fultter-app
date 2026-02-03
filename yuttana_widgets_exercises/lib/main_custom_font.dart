@@ -9,7 +9,7 @@
 /// Not Using Ai
 library;
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/custom_font.dart';
+import 'components/custom_font.dart';
 
 void main() => runApp(MainCustomFont());
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/question_choice.dart';
-import 'package:yuttana_4280_fultter_app/utils/responsive.dart';
+import 'package:yuttana_widgets_exercises/components/question_choice.dart';
+import '../utils/responsive.dart';
 import 'choice_card.dart';
 
 class QuestionChoiceResponsive extends StatelessWidget {

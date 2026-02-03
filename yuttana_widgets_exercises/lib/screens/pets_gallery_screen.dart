@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/pet_card_with_model.dart';
-import 'package:yuttana_4280_fultter_app/models/pet_model.dart';
-import 'package:yuttana_4280_fultter_app/utils/pet_img.dart';
+import '../components/pet_card_with_model.dart';
+import '../models/pet_model.dart';
+import '../utils/pet_img.dart';
 
 final PetModel bird = PetModel(
     name: 'Bird',

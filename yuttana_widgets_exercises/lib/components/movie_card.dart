@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/models/movie_model.dart';
+import '../models/movie_model.dart';
 
 class MovieCard extends StatelessWidget {
   const MovieCard({super.key, required this.movie, required this.onTap});

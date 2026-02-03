@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/custom_text.dart';
-
+import '../components/custom_text.dart';
 import '../models/contact_model.dart';
 
 final List<Contact> _contacts = [

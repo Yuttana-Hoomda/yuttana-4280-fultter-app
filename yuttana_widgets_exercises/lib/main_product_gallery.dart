@@ -19,8 +19,8 @@
 /// Not Using Ai
 library;
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/product_card.dart';
-import 'package:yuttana_4280_fultter_app/screens/product_detail.dart';
+import 'package:yuttana_widgets_exercises/components/product_card.dart';
+import 'package:yuttana_widgets_exercises/screens/product_detail.dart';
 
 import 'models/product_model.dart';
 

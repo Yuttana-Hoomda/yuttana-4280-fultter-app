@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/models/article_model.dart';
-import 'package:yuttana_4280_fultter_app/utils/responsive.dart';
+import '../models/article_model.dart';
+import '../utils/responsive.dart';
 
 int _gridColumn(BuildContext context) {
   if (Responsive.isDesktop(context)) {

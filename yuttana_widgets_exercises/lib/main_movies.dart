@@ -18,7 +18,7 @@
 library;
 
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/screens/movie_screen.dart';
+import 'package:yuttana_widgets_exercises/screens/movie_screen.dart';
 
 void main() => runApp(MainMovies());
 

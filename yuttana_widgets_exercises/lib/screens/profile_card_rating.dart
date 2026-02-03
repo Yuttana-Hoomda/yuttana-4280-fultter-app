@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yuttana_4280_fultter_app/components/contact_info.dart';
-import 'package:yuttana_4280_fultter_app/components/profile_card.dart';
-import 'package:yuttana_4280_fultter_app/components/rating.dart';
+import '../components/contact_info.dart';
+import '../components/profile_card.dart';
+import '../components/rating.dart';
 
 class ProfileCardRating extends StatelessWidget {
   const ProfileCardRating({super.key});
