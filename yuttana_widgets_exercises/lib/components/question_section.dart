@@ -13,14 +13,22 @@ class QuestionSection extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(
-            question,
-            style: TextStyle(
-              fontSize: 24,
-              color: Theme.of(context).colorScheme.primary,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Text(
+              question,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 24,
+                color: Theme
+                    .of(context)
+                    .colorScheme
+                    .primary,
+              ),
             ),
           ),
-          Expanded(child: Image.asset(img, height: 200, width: 320, fit: BoxFit.contain)),
+          Expanded(child: Image.asset(
+              img, height: 200, width: 320, fit: BoxFit.contain)),
         ],
       ),
     );
