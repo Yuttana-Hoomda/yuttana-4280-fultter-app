@@ -341,6 +341,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+  yuttana_widgets_exercises:
+    dependency: "direct main"
+    description:
+      path: "C:/Users/USER/StudioProjects/yuttana-4280-fultter-app/yuttana_widgets_exercises"
+      relative: false
+    source: path
+    version: "1.0.0+1"
 sdks:
   dart: ">=3.10.1 <4.0.0"
   flutter: ">=3.35.0"

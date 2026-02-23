@@ -1,3 +1,13 @@
+/// @author Yuttana Hoomda
+/// @version 1.0
+/// @date 2025-2-19
+/// this lab will show the Login form when submit
+/// it will save user data to local storage
+/// -------- logic -------
+/// 1) use SharePrefernceWithCache for store username and password to local storage
+/// 2) create function on click that for set the input form to preference value
+/// Not Using Ai
+library;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
