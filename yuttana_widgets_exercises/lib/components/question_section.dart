@@ -28,7 +28,7 @@ class QuestionSection extends StatelessWidget {
             ),
           ),
           Expanded(child: Image.asset(
-              img, height: 200, width: 320, fit: BoxFit.contain)),
+              img, height: 200, width:345, fit: BoxFit.cover)),
         ],
       ),
     );
